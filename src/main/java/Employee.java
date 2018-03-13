@@ -5,17 +5,23 @@
  */
 public class Employee {
 
+    /**
+     *
+     */
     private String name;
+    /**
+     *
+     */
     private String manager;
 
     /**
      * Constructor for initialization.
-     * @param name
-     * @param manager
+     * @param setName name.
+     * @param setManager manager.
      */
-    public Employee(final String name, final String manager) {
-        this.name = name;
-        this.manager = manager;
+    public Employee(final String setName, final String setManager) {
+        this.name = setName;
+        this.manager = setManager;
     }
 
     /**
@@ -28,9 +34,9 @@ public class Employee {
 
     /**
      * Setter for name.
-     * @param name
+     * @param setName name.
      */
-    public void setName(final String name) {
+    public void setName(final String setName) {
         this.name = name;
     }
 
@@ -44,9 +50,9 @@ public class Employee {
 
     /**
      * Setter for manager.
-     * @param manager
+     * @param setManager manager.
      */
-    public void setManager(final String manager) {
+    public void setManager(final String setManager) {
         this.manager = manager;
     }
 }
